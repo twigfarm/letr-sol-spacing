@@ -1,0 +1,124 @@
+/* Global */
+:root {
+    /* Color */
+    --color-main: #34e66c;
+    --color-light-blue: #bbcde8;
+    --color-white: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+    height: 60vh;
+  }
+  
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  h2 {
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+  textarea:focus{
+    outline:1px solid #34e66c;
+  }
+  
+  .main__container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .main__text-container {
+    border: 1px solid black;
+    width: 600px;
+    height: 85%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .main__text-container:last-child {
+    background-color: var(--color-white);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+  }
+  
+  .main__container .text-category {
+    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100px;
+    margin: 0;
+  }
+  
+  .main__text-container div {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  #text_box {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 15px;
+    resize: none;
+  }
+  
+  #text_box::placeholder {
+    font-size: 24px;
+  }
+  
+  .predict_btn {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-main);
+    color: white;
+    position: absolute;
+    right: 0;
+    display: block;
+  }
+  
+  .predict_btn:hover {
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .main__container {
+      flex-direction: column;
+      
+    }
+    .main__text-container {
+      margin: 0;
+      margin-bottom: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #text-box {
+      width: 100%;
+      height: 100%;
+    }
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <header></header>
+      <div class="main__title">
+        <h2>papulgo</h2>
+      </div>
+    <main>
+      <div class="main__container">
+        <div class="main__text-container">
+          <form action="/predict" method="post">
+            <textarea
+              name="text"
+              id="text_box"
+              placeholder="문장을 입력하세요."
+              cols="30"
+              rows="10"
+            >
+{{inputText}}</textarea
+            >
+            
+            <button class="predict_btn">검사하기</button>
+          </form>
+        </div>
+        <div class="main__text-container">
+          {% if prediction %}
+          <div>{{prediction}}</div>
+          {% endif %}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
