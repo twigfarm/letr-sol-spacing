@@ -30,7 +30,7 @@ new_bert
 ## Dataset
 * 세종코퍼스 1,037,330 문장
 
-<img width="80%" src="https://user-images.githubusercontent.com/77109972/139565991-163adba8-06d6-454f-b807-ca38417a24b3.png"/>
+<img width="50%" src="https://user-images.githubusercontent.com/77109972/139565991-163adba8-06d6-454f-b807-ca38417a24b3.png"/>
 
   파라미터 max_len과 문장의 길이가 얼만나 고르게 분포되어 있는지가 학습에 중요한 요소로 판단합니다.
 
