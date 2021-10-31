@@ -1,4 +1,5 @@
-## bert-for-korean-spacing
+# bert-for-korean-spacing
+***
 ### BERT Pretrained model을 이용한 한국어 띄어쓰기
 
 NLP과정에서는 한국어 텍스트 정보의 의미를 효과적으로 처리하기 위해서는 각 단어를 정확하게 파악하는 것이 중요합니다. 특히 잘못 된 띄어쓰기는 단어 구별 오류의 원인이 되며 문장 해석의 어려움 증가로 성능 저하를 초래합니다.   
