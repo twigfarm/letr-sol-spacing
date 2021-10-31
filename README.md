@@ -148,18 +148,18 @@ python eval.py
 new_bert
 └kospacing
 	└config
-  	- eval_config.yaml
-	  - train_config.yaml
+  	   - eval_config.yaml
+	   - train_config.yaml
  	└data
-  	- sample.txt
-	  - test.txt
-  	- train.txt
-	  - val.txt
+	   - sample.txt
+	   - test.txt
+	   - train.txt
+	   - val.txt
 	- dataset.py
 	...
 └sampleweb
 	└config
-		- eval_config.yaml
+	   - eval_config.yaml
 	└static
 	└templates
 	- app.py
