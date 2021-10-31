@@ -80,6 +80,7 @@ if you don't have gpu, gpus must be change to 0 (gpus:8 -> gpus:0)
 #### Run!
 
 ```python
+cd kospacing
 python train.py
 ```
 
@@ -108,6 +109,7 @@ test_step_outputs = {"result":prd_result(pred_labels),
 #### Run!
 
 ```python
+cd kospacing
 python eval.py
 ```
 ## Results
@@ -127,6 +129,11 @@ python eval.py
 > output : 트렁크 룸사업의 성장성은 이례적이다.
 
 ## Demo
+
+```python
+cd sampleweb
+python app.py
+```
 
 ![화면-기록-2021-10-31-오전-11 52 24](https://user-images.githubusercontent.com/77109972/139566025-5b3771cb-a1c3-43ba-95bc-ec23730ac7c0.gif)
 
