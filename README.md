@@ -1,5 +1,5 @@
 # bert-for-korean-spacing
-***
+
 ### BERT Pretrained model을 이용한 한국어 띄어쓰기
 
 NLP과정에서는 한국어 텍스트 정보의 의미를 효과적으로 처리하기 위해서는 각 단어를 정확하게 파악하는 것이 중요합니다. 특히 잘못 된 띄어쓰기는 단어 구별 오류의 원인이 되며 문장 해석의 어려움 증가로 성능 저하를 초래합니다.   
@@ -143,7 +143,7 @@ python eval.py
 - [한국어 자동 띄어쓰기 시스템을 위한 학습 데이터의 효과적인 표현 방법](https://www.earticle.net/Article/A367406)
 - [BERT를 이용한 한국어 자동 띄어쓰기](http://isoft.cnu.ac.kr/paper/[KSC2019]BERT%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EC%9E%90%EB%8F%99%20%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0.pdf)
 
-## folder_path
+*** 
 ```
 new_bert
 └kospacing
