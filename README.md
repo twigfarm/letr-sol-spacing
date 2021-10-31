@@ -148,7 +148,7 @@ python eval.py
 
 ## Demo
 
-![화면-기록-2021-10-31-오전-11.52.24](/Users/kwon/Downloads/화면-기록-2021-10-31-오전-11.52.24.gif)
+![화면-기록-2021-10-31-오전-11 52 24](https://user-images.githubusercontent.com/77109972/139566025-5b3771cb-a1c3-43ba-95bc-ec23730ac7c0.gif)
 
 ## Reference
 
