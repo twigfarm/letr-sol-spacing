@@ -24,7 +24,7 @@ bert-for-korean-spacing은 위와 같은 문제를 해결하기 위해 띄어쓰
 
 ```python
 pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.douban.com/simple
-
+```
 
 #### train.txt, test.txt, val.txt 
 
