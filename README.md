@@ -21,9 +21,9 @@ bert-for-korean-spacing은 위와 같은 문제를 해결하기 위해 띄어쓰
 <a href="https://download.pytorch.org/whl/torch_stable.html" target="_blank">
 <img src="https://img.shields.io/badge/PyTorch-1.5.1-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"/>
 </a>
-
-- pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.douban.com/simple
-
+```
+pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.douban.com/simple
+```
 #### train.txt, test.txt, val.txt 
 
 ```python
