@@ -8,11 +8,12 @@ bert-for-korean-spacing은 위와 같은 문제를 해결하기 위해 띄어쓰
 
 
 ## Dataset
-* 세종코퍼스 1,037,330 문장
+* 모두의 말뭉치 문어 데이터 53,201문장
 
 <img width="50%" src="https://user-images.githubusercontent.com/77109972/139565991-163adba8-06d6-454f-b807-ca38417a24b3.png"/>
 
-  파라미터 max_len과 문장의 길이가 얼만나 고르게 분포되어 있는지가 학습에 중요한 요소로 판단합니다.
+  파라미터 max_len과 문장의 길이가 얼만나 고르게 분포되어 있는지가 학습에 중요한 요소로 판단합니다.  
+  띄어쓰기가 제대로 된 데이터를 수집하는 것이 중요합니다. (예: 국립국어원 데이터, 교과서 
 
 ## Train
 
@@ -114,9 +115,8 @@ python eval.py
 ```
 ## Results
 
-* testset : 103,733건
-* SER : 0.277
-* F1 score : 0.966 
+* testset :  5320
+* F1 score : 0.948 
 
 ## Example
 > input  : 그냥영풍이라고써있으니까될거같지않냐?  
