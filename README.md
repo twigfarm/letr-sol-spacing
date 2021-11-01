@@ -116,7 +116,7 @@ python eval.py
 ## Results
 
 * testset :  5320
-* F1 score : 0.948 
+* Accuracy : 0.948 
 
 ## Example
 > input  : 그냥영풍이라고써있으니까될거같지않냐?  
