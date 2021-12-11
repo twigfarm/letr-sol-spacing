@@ -71,7 +71,7 @@ train_batch_size: 64
 eval_batch_size: 64
 dropout_rate: 0.1
 gpus: 8
-distributed_backend: ddp
+distributed_backend: dp
 ```
 if you don't have gpu, gpus must be change to 0 (gpus:8 -> gpus:0)
 
