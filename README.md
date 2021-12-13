@@ -8,7 +8,7 @@ letr-sol-spacing 은 위와 같은 문제를 해결하기 위해 띄어쓰기를
 
 
 ## Dataset
-* 모두의 말뭉치 문어 데이터 53,201문장
+* 모두의 말뭉치 문어 데이터 1000,000문장
 
 <img width="50%" src="https://user-images.githubusercontent.com/77109972/139565991-163adba8-06d6-454f-b807-ca38417a24b3.png"/>
 
@@ -66,14 +66,14 @@ bert_model: monologg/kobert
 train_data_path: data/train_data.txt
 val_data_path: data/val_data.txt
 test_data_path: data/test_data.txt
-max_len: 128
-train_batch_size: 64
-eval_batch_size: 64
+max_len: 256
+train_batch_size: 32
+eval_batch_size: 32
 dropout_rate: 0.1
-gpus: 8
+gpus: 1
 distributed_backend: dp
 ```
-if you don't have gpu, gpus must be change to 0 (gpus:8 -> gpus:0)
+if you don't have gpu, gpus must be change to 0 (gpus:1 -> gpus:0)
 
 #### Run!
 
@@ -90,8 +90,8 @@ python train.py
 bert_model: monologg/kobert
 test_data_path: data/sample.txt
 ckpt_path: checkpoints/epoch=4_val_acc=0.000000.ckpt
-max_len: 128
-eval_batch_size: 64
+max_len: 256
+eval_batch_size: 32
 dropout_rate: 0.1
 ```
 
@@ -112,18 +112,21 @@ python eval.py
 ```
 ## Results
 
-* testset :  5320
-* Accuracy : 0.948 
+* testset :  100,000
+* val_loss :  0.384
+* Accuracy : 0.975
+
+<img width="50%" src="https://user-images.githubusercontent.com/77109972/145743908-fa158774-0c5b-48d8-b87f-fc0dd13cdb47.jpg"/>
 
 ## Example
-> input  : 그냥영풍이라고써있으니까될거같지않냐?  
-> output : 그냥 영풍이라고 써 있으니까 될 거 같지 않냐?
+> input  : 왼손과오른손을맞대어보니크기가살짝다르다는것을알게되었다. 
+> output : 왼손과 오른손을 맞대어 보니 크기가 살짝 다르다는 것을 알게 되었다.
 
-> input  : 대표적인미디어문화연구자인더글러스켈너는이렇게말하고있다.  
-> output : 대표적인 미디어 문화연구자인 더글러스 켈너는 이렇게 말하고 있다.
+> input  : 니체의소크라테스비판은소크라테스개인에대한비판이아니라소크라테스의사상에따라서규정된전통형이상학비판이라고할수있다. 
+> output : 니체의 소크라테스 비판은 소크라테스 개인에 대한 비판이 아니라 소크라테스의 사상에 따라서 규정된 전통 형이상학 비판이라고 할수있다.
 
-> input  : 트렁크룸사업의성장성은이례적이다.	  
-> output : 트렁크 룸사업의 성장성은 이례적이다.
+> input  : HTML,CSS,JS의기초를잡을수있는책	  
+> output : HTML, CSS, JS의 기초를 잡을 수있는책
 
 ## Demo
 
