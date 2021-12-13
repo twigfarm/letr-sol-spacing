@@ -114,9 +114,8 @@ python eval.py
 
 * testset :  100,000
 * val_loss :  0.384
-* Accuracy : 0.975
-
 <img width="50%" src="https://user-images.githubusercontent.com/77109972/145743908-fa158774-0c5b-48d8-b87f-fc0dd13cdb47.jpg"/>
+* Accuracy : 0.975
 
 ## Example
 > input  : 왼손과오른손을맞대어보니크기가살짝다르다는것을알게되었다. 
