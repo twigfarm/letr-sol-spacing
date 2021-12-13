@@ -111,6 +111,10 @@ cd kospacing
 python eval.py
 ```
 ## Results
+Intel Xeon, Tesla V100 - 26시간동안 학습하였습니다.
+<a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
+<img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a>
+</a>
 
 * testset :  100,000
 * val_loss :  0.384
