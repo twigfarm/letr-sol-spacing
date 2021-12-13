@@ -137,7 +137,7 @@ python eval.py
 cd sampleweb
 python app.py
 ```
-<img width="10%" src="https://user-images.githubusercontent.com/77109972/145746794-72da68ce-7ebe-4169-8fe7-f419cdcc7fe8.PNG">
+<img src="https://user-images.githubusercontent.com/77109972/145746794-72da68ce-7ebe-4169-8fe7-f419cdcc7fe8.PNG">
 
 ## Reference
 
