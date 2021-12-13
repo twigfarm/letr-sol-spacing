@@ -113,13 +113,14 @@ python eval.py
 ## Results
 Intel Xeon, Tesla V100 - 26시간동안 학습하였습니다.  
 <a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
-<img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a> - 26시간동안 학습(Intel Xeon, Tesla V100)  
 </a>
 
 * testset :  100,000
+* Accuracy : 0.975
 * val_loss :  0.384
 <img width="50%" src="https://user-images.githubusercontent.com/77109972/145743908-fa158774-0c5b-48d8-b87f-fc0dd13cdb47.jpg"/>
-* Accuracy : 0.975
+
 
 ## Example
 > input  : 왼손과오른손을맞대어보니크기가살짝다르다는것을알게되었다.   
