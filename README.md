@@ -111,7 +111,6 @@ cd kospacing
 python eval.py
 ```
 ## Results
-Intel Xeon, Tesla V100 - 26시간동안 학습하였습니다.  
 <a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
 <img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a> - 26시간동안 학습(Intel Xeon, Tesla V100)  
 </a>
@@ -119,7 +118,7 @@ Intel Xeon, Tesla V100 - 26시간동안 학습하였습니다.
 * testset :  100,000
 * Accuracy : 0.975
 * val_loss :  0.384
-<img width="50%" src="https://user-images.githubusercontent.com/77109972/145743908-fa158774-0c5b-48d8-b87f-fc0dd13cdb47.jpg"/>
+<img width="70%" src="https://user-images.githubusercontent.com/77109972/145743908-fa158774-0c5b-48d8-b87f-fc0dd13cdb47.jpg"/>
 
 
 ## Example
@@ -138,8 +137,7 @@ Intel Xeon, Tesla V100 - 26시간동안 학습하였습니다.
 cd sampleweb
 python app.py
 ```
-
-![화면-기록-2021-10-31-오전-11 52 24](https://user-images.githubusercontent.com/77109972/139566025-5b3771cb-a1c3-43ba-95bc-ec23730ac7c0.gif)
+<img width="10%" src="https://user-images.githubusercontent.com/77109972/145746794-72da68ce-7ebe-4169-8fe7-f419cdcc7fe8.PNG">
 
 ## Reference
 
