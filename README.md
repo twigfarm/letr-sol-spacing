@@ -8,7 +8,7 @@ letr-sol-spacing 은 위와 같은 문제를 해결하기 위해 띄어쓰기를
 
 
 ## Dataset
-* 모두의 말뭉치 문어 데이터 1000,000문장
+* 모두의 말뭉치 문어 데이터 1,000,000문장
 
 <img width="50%" src="https://user-images.githubusercontent.com/77109972/139565991-163adba8-06d6-454f-b807-ca38417a24b3.png"/>
 
