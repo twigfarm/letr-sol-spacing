@@ -149,7 +149,7 @@ python app.py
 
 #### Paper
 
-- [한국어 자동 띄어쓰기 시스템을 위한 학습 데이터의 효과적인 표현 방법](https://www.earticle.net/Article/A367406)
+- [한국어 자동 띄어쓰기 시스템을 위한 학습 데이터의 효과적인 표현 방법](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002544053)
 - [BERT를 이용한 한국어 자동 띄어쓰기](http://isoft.cnu.ac.kr/paper/[KSC2019]BERT%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EC%9E%90%EB%8F%99%20%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0.pdf)
 
 *** 
