@@ -55,14 +55,6 @@ def main(config):
         save_top_k=3,
     )
 
-    early_stop_callback = EarlyStopping(
-        monitor="val_loss",
-        min_delta=0.001,
-        patience=3,
-        verbose=False,
-        mode="min",
-    )
-
     trainer = pl.Trainer(
         gpus=config.gpus,
         checkpoint_callback=checkpoint_callback,
