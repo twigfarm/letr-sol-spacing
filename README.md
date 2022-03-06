@@ -112,12 +112,11 @@ python eval.py
 <a href="https://colab.research.google.com/drive/1Z_7hH_r3PSbpmBr_GDvzxRSRmgOYLK1T?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a> (colab에서 동작하도록 수정)  
-
+  
 <a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
 <img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a> - 26시간동안 학습 .ckpt(Intel Xeon, Tesla V100)  
 </a>
 
-* testset :  1,000,000
 * Accuracy : 0.975
 * val_loss :  0.384
 <img src="https://user-images.githubusercontent.com/77109972/145743908-fa158774-0c5b-48d8-b87f-fc0dd13cdb47.jpg"/>
