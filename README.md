@@ -71,16 +71,7 @@ dropout_rate: 0.1
 gpus: 1
 epochs: 3
 ```
-if you don't have gpu, gpus must be change to 0 (gpus:1 -> gpus:0)
 
-#### Run!
-
-```python
-cd kospacing
-python train.py
-```
-
-## Eval
 * eval_config.yaml
 
   data/sample.txt 파일을 만들어서 검사를 할 문장을 입력합니다.
@@ -101,18 +92,17 @@ test_step_outputs = {"result":prd_result(pred_labels),
             "gt_labels": gt_labels,
             "pred_labels": pred_labels}
 ```
-
 #### Run!
-
+<a href="https://colab.research.google.com/drive/1Z_7hH_r3PSbpmBr_GDvzxRSRmgOYLK1T?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+  
 ```python
 cd kospacing
+python train.py
 python eval.py
 ```
 ## Results
-<a href="https://colab.research.google.com/drive/1Z_7hH_r3PSbpmBr_GDvzxRSRmgOYLK1T?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a> (colab에서 동작하도록 수정)  
-  
 <a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
 <img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a> - 26시간동안 학습 .ckpt(Intel Xeon, Tesla V100)  
 </a>
