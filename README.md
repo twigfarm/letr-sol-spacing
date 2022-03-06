@@ -109,12 +109,12 @@ cd kospacing
 python eval.py
 ```
 ## Results
-<a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
-<img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a> - 26시간동안 학습(Intel Xeon, Tesla V100)  
-</a>
-
 <a href="https://colab.research.google.com/drive/1Z_7hH_r3PSbpmBr_GDvzxRSRmgOYLK1T?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> (colab에서 동작하도록 수정)  
+
+<a href="https://drive.google.com/drive/folders/142SPggW5IUtpQRtufYZ63-Zxh3l3pLk-?usp=sharing/" target="_blank">
+<img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat-square&logo=Google Drive&logoColor=white"/></a> - 26시간동안 학습 .ckpt(Intel Xeon, Tesla V100)  
 </a>
 
 * testset :  1,000,000
