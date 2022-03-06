@@ -19,7 +19,8 @@ letr-sol-spacing 은 위와 같은 문제를 해결하기 위해 띄어쓰기를
 
 #### Requirements
 <a href="https://pytorch.kr/get-started/previous-versions/" target="_blank">
-<img src="https://img.shields.io/badge/PyTorch-1.5.1-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-Lightning-EE4C2C?style=flat-square&logo=PyTorch Lightning
+&logoColor=white"/>
 </a>
 
 #### train.txt, test.txt, val.txt 
@@ -71,7 +72,7 @@ train_batch_size: 32
 eval_batch_size: 32
 dropout_rate: 0.1
 gpus: 1
-distributed_backend: dp
+epochs: 3
 ```
 if you don't have gpu, gpus must be change to 0 (gpus:1 -> gpus:0)
 
