@@ -9,3 +9,4 @@ eval_batch_size: 32
 dropout_rate: 0.1
 gpus: 1
 epochs: 3
+task: bert_spacing
