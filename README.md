@@ -4,14 +4,13 @@
 
 NLP과정에서는 한국어 텍스트 정보의 의미를 효과적으로 처리하기 위해서는 각 단어를 정확하게 파악하는 것이 중요합니다. 특히 잘못 된 띄어쓰기는 단어 구별 오류의 원인이 되며 문장 해석의 어려움 증가로 성능 저하를 초래합니다.   
 
-letr-sol-spacing 은 위와 같은 문제를 해결하기 위해 monologg/kobert를 사용하여 띄어쓰기를 학습 한 모델입니다.
-<a href="https://kiwi-carol-258.notion.site/SOL-e13a590cf5f14ae4af32a2a518ef37d7">[노션링크 바로가기!]</a>
+letr-sol-spacing 은 위와 같은 문제를 해결하기 위해 monologg/kobert를 사용하여 띄어쓰기를 학습 한 모델입니다.  
+<a href="https://kiwi-carol-258.notion.site/SOL-e13a590cf5f14ae4af32a2a518ef37d7">[노션링크 바로가기]</a>
 
 
 ## Dataset
 * 모두의 말뭉치 문어 데이터 1,000,000문장  
 
-  파라미터 max_len과 문장의 길이가 얼마나 고르게 분포되어 있는지가 학습에 중요한 요소로 판단합니다.  
   띄어쓰기가 제대로 된 데이터를 수집하는 것이 중요합니다. (예: 국립국어원 데이터, 교과서 
 
 ## Train
