@@ -6,7 +6,7 @@ NLP과정에서는 한국어 텍스트 정보의 의미를 효과적으로 처�
 
 letr-sol-spacing 은 위와 같은 문제를 해결하기 위해 monologg/kobert를 사용하여 띄어쓰기를 학습 한 모델입니다.  
 
-<a href="https://github.com/robust-spacing">
+<a href="https://github.com/kwon13/robust-spacing">
   <img src="https://img.shields.io/badge/Next Repo-181717?style=flat-square&logo=GitHub&logoColor=white"/>
 </a>   
 
